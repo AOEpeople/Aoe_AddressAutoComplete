@@ -1,0 +1,4 @@
+app/code/community/Aoe/AddressAutoComplete/
+app/etc/modules/Aoe_AddressAutoComplete.xml app/etc/modules/ZZZ_Aoe_AddressAutoComplete.xml
+app/design/frontend/base/default/layout/aoe_addressautocomplete/
+js/aoe_addressautocomplete/

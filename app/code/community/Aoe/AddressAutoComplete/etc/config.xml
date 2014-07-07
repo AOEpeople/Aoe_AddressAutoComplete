@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<config>
+    <modules>
+        <Aoe_AddressAutoComplete>
+            <version>0.1.0</version>
+        </Aoe_AddressAutoComplete>
+    </modules>
+
+    <global>
+        <blocks>
+            <Aoe_AddressAutoComplete>
+                <class>Aoe_AddressAutoComplete_Block</class>
+            </Aoe_AddressAutoComplete>
+        </blocks>
+
+        <helpers>
+            <Aoe_AddressAutoComplete>
+                <class>Aoe_AddressAutoComplete_Helper</class>
+            </Aoe_AddressAutoComplete>
+        </helpers>
+
+        <models>
+            <Aoe_AddressAutoComplete>
+                <class>Aoe_AddressAutoComplete_Model</class>
+            </Aoe_AddressAutoComplete>
+        </models>
+    </global>
+
+    <frontend>
+        <layout>
+            <updates>
+                <Aoe_AddressAutoComplete>
+                    <file>aoe_addressautocomplete/aoe_addressautocomplete.xml</file>
+                </Aoe_AddressAutoComplete>
+            </updates>
+        </layout>
+    </frontend>
+</config>
+
+
+
+
+
